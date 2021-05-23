@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { from } from 'rxjs';
+import { Output, EventEmitter} from'@angular/core';
 
 @Component({
   selector: 'app-form',
@@ -7,6 +9,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FormComponent implements OnInit {
 
+
+  searchTerm?: string
+  @Output() searchProf = new EventEmitter<any>();
+
+  searchUser() {
+    this.searchProf.emit(this.searchTerm)
+  }
   constructor() { }
 
   ngOnInit(): void {
