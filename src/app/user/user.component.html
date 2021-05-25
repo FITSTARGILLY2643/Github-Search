@@ -14,9 +14,9 @@
             <div class="col-sm">
                 <div class="testimonial-card">
                     <div class="card-body">
-                        <h1 class="card-title" style="text-align: center">
+                        <h3 class="card-title" style="text-align: center">
                             {{ user.login }}
-                        </h1>
+                        </h3>
                         <hr />
                         <div style="text-align: center">
                             <p>Bio</p>
@@ -53,11 +53,11 @@
             <div class="col-md-6" *ngFor="let repos of userRep" id="card">
                 <div class="card mt-3" id="card2">
 
-                    <h2 class="text-center pt-4 para">
+                    <h3 class="text-center pt-4 para">
                         {{repos.name}}
-                    </h2>
+                    </h3>
 
-                    <p>
+                    <p class="description">
                         {{repos.description}}
                     </p>
 

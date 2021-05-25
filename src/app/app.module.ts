@@ -10,12 +10,14 @@ import { FormComponent } from './form/form.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { UserComponent } from './user/user.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
     FormComponent,
     NotFoundComponent,
     UserComponent,
+   
   
   ],
   imports: [
