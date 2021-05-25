@@ -32,7 +32,7 @@ To access this project on your local files, you can clone it using these steps
 1. Typescript
 
 ### Live Site
-View [live]( )
+View [live](https://fitstargilly2643.github.io/Github-Search/)
 ### Contacts
 Reach us on githubsearch@fits.com or call +254 725 060 098
 ### Licence
